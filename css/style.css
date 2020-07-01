@@ -5,20 +5,44 @@
 }
 
 body{
-  text-align: center;
 }
 
 .container{
-  height: calc(100vh - 30px);
+  /* height: calc(100vh - 30px); */
   width: 70%;
   margin: 15px auto;
+  font-family: 'Lato', sans-serif;
   /* background-color: red; */
 }
 
 header{
+  position: relative;
   background-color:#FEFE3A;
-  height: 15%;
+  height: 200px;
 }
+
+.header-top{
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header-logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: darkblue;
+}
+
+.header-bottom{
+  position: absolute;
+  background-color: blue;
+  bottom: 0;
+}
+
+
+
 
 main{
   height: calc(70% - 10px);
