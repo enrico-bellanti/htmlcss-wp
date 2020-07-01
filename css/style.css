@@ -156,6 +156,7 @@ main::after{
 
 .col-centr h2{
   margin-bottom: 20px;
+  text-shadow: 2px 2px #d3d3d3;
 }
 
 .col-centr p{
