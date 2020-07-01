@@ -98,7 +98,7 @@ header{
 
 main{
   height: calc(70% - 10px);
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 main::after{
@@ -109,14 +109,14 @@ main::after{
 
 /* inizio colonna sinistra */
 
-.col-sx, .col-centr, .widget{
+.col-sx, .col-centr, .widget, footer{
   background-color: white;
   border-radius: 5px;
 }
 
 .col-sx{
   float: left;
-  width: calc(25% - 20px);
+  width: calc(25% - 32px);
 }
 
 
@@ -145,7 +145,7 @@ main::after{
 
 .col-sx-list a{
   text-decoration: none;
-  color: #106b21;
+  color: #3E983A;
   font-weight: bold;
 }
 
@@ -154,7 +154,7 @@ main::after{
 .col-centr{
   float: left;
   width: 50%;
-  margin: 0 20px;
+  margin: 0 32px;
   padding: 20px;
 }
 
@@ -172,7 +172,7 @@ main::after{
 
 .col-dx{
   float: left;
-  width: calc(25% - 20px);
+  width: calc(25% - 32px);
 }
 
 .widget{
@@ -188,5 +188,20 @@ main::after{
   line-height: 25px;
 }
 
-footer{
+footer .copyright{
+  font-size: 17px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color:  #CECECE;
+  border-bottom: 1px solid  #CECECE;
+}
+
+footer div.logo-social{
+  display: inline-block;
+  padding: 25px 0;
+  width: 33%;
+  color: #CECECE;
+  font-size: 30px;
+  text-align: center;
 }
