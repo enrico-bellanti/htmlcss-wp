@@ -198,10 +198,29 @@ footer .copyright{
 }
 
 footer div.logo-social{
-  display: inline-block;
-  padding: 25px 0;
-  width: 33%;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    padding: 25px 0;
+    width: 33%;
+}
+
+footer div.logo-social a{
   color: #CECECE;
-  font-size: 30px;
-  text-align: center;
+}
+
+/* footer div.logo-social a:hover{
+  color: blue;
+} */
+
+#logo-facebook:hover{
+  color: #1877F2;
+}
+
+#logo-instagram:hover{
+  color: #CF2E83;
+}
+
+#logo-github:hover{
+  color: #322F30;
 }
