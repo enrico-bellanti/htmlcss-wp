@@ -50,6 +50,7 @@ header{
 
 .header-logo h1{
   display: inline-block;
+  font-weight: 400;
   font-size: 60px;
   border: 6px solid #fff;
   margin-bottom: 35px;
@@ -57,7 +58,7 @@ header{
 }
 
 /* .header-logo h2{
-
+  font-weight: 400;
 } */
 
 .header-bottom{
