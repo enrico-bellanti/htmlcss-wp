@@ -188,6 +188,10 @@ main::after{
   line-height: 25px;
 }
 
+footer{
+  padding: 0 5px;
+}
+
 footer .copyright{
   font-size: 17px;
   font-weight: bold;
