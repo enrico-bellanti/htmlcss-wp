@@ -5,6 +5,7 @@
 }
 
 body{
+  background-image: url(../img/natural-default-pattern.png);
 }
 
 .container{
@@ -17,17 +18,22 @@ body{
 
 header{
   position: relative;
-  background-color:#FEFE3A;
-  height: 200px;
+  /* background-color:#FEFE3A; */
+  height: 300px;
 }
 
 .header-top{
   position: relative;
   height: 90%;
-  background-color: green;
+  border: 10px solid #fff;
+  /* background-color: green; */
   color: #fff;
   text-align: center;
   text-transform: uppercase;
+  background-image: url(../img/natural-default-header.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .header-logo{
@@ -35,10 +41,24 @@ header{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: darkblue;
+  /* background-color: darkblue; */
 }
 
-.logo
+.fa-mountain{
+  font-size: 50px;
+}
+
+.header-logo h1{
+  display: inline-block;
+  font-size: 60px;
+  border: 6px solid #fff;
+  margin-bottom: 35px;
+  padding: 5px 10px;
+}
+
+.header-logo h2{
+
+}
 
 .header-bottom{
   position: absolute;
