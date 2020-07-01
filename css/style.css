@@ -109,14 +109,14 @@ main::after{
 
 /* inizio colonna sinistra */
 
-.col-sx, .col-centr, .col-dx{
+.col-sx, .col-centr, .widget{
   background-color: white;
   border-radius: 5px;
 }
 
 .col-sx{
   float: left;
-  width: calc(25% - 10px);
+  width: calc(25% - 20px);
 }
 
 
@@ -154,7 +154,7 @@ main::after{
 .col-centr{
   float: left;
   width: 50%;
-  margin: 0 10px;
+  margin: 0 20px;
   padding: 20px;
 }
 
@@ -172,13 +172,12 @@ main::after{
 
 .col-dx{
   float: left;
-  width: calc(25% - 10px);
+  width: calc(25% - 20px);
 }
 
 .widget{
-  height: calc(50% - 10px);
   padding: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .widget h2{
@@ -186,20 +185,8 @@ main::after{
 }
 
 .widget p{
-  /* padding: 0 20px; */
   line-height: 25px;
-  /* margin: 0 25px; */
 }
 
-/* .widget-bottom{
-  height: calc(50% - 10px);
-  margin-bottom: 10px;
-  background-color: #CC87DA;
-} */
-
-
-
 footer{
-  background-color:#A4D2E1;
-  height: 15%;
 }
