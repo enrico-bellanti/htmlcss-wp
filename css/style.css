@@ -115,22 +115,18 @@ main::after{
   width: calc(25% - 10px);
 }
 
-.col-sx-top{
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .col-sx .fa-rss-square{
-  float: left;
+  vertical-align: top;
+  display: inline-block;
   color: orange;
   font-size: 30px;
   margin: 5px;
 }
 
-.col-sx h3{
-  float: left;
+.col-sx-top h3{
   display: inline-block;
+  margin-top: 4px;
   width: 50%;
   font-size: 25px;
 }
