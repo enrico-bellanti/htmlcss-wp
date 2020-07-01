@@ -94,6 +94,8 @@ header{
   line-height: 35px;
 }
 
+/* inizio main */
+
 main{
   height: calc(70% - 10px);
   margin: 5px 0;
@@ -104,6 +106,8 @@ main::after{
   display: block;
   clear: both;
 }
+
+/* inizio colonna sinistra */
 
 .col-sx, .col-centr, .col-dx{
   background-color: white;
@@ -145,23 +149,26 @@ main::after{
   font-weight: bold;
 }
 
-
+/* inizio colonna centrale */
 
 .col-centr{
   float: left;
   width: 50%;
   margin: 0 10px;
-  padding: 15px;
+  padding: 20px;
 }
 
 .col-centr h2{
-  margin-bottom: 20px;
+  margin: 10px 0 25px 0;
   text-shadow: 2px 2px #d3d3d3;
+  text-transform: uppercase;
 }
 
 .col-centr p{
   line-height: 25px;
 }
+
+/* inizio colonna destra */
 
 .col-dx{
   float: left;
@@ -170,7 +177,18 @@ main::after{
 
 .widget{
   height: calc(50% - 10px);
+  padding: 25px;
   margin-bottom: 10px;
+}
+
+.widget h2{
+  margin-bottom: 20px;
+}
+
+.widget p{
+  /* padding: 0 20px; */
+  line-height: 25px;
+  /* margin: 0 25px; */
 }
 
 /* .widget-bottom{
