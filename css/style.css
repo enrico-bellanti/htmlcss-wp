@@ -105,31 +105,66 @@ main::after{
   clear: both;
 }
 
+.col-sx, .col-centr, .col-dx{
+  background-color: white;
+  border-radius: 5px;
+}
+
 .col-sx{
   float: left;
-  width: 25%;
-  height: 70%;
-  background-color: #CC87DA;
+  width: calc(25% - 10px);
 }
+
+.col-sx-top{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-sx .fa-rss-square{
+  float: left;
+  color: orange;
+  font-size: 30px;
+  margin: 5px;
+}
+
+.col-sx h3{
+  float: left;
+  display: inline-block;
+  width: 50%;
+  font-size: 25px;
+}
+
+.col-sx-list ul{
+  list-style: none;
+}
+
+.col-sx-list li{
+  margin: 10px;
+}
+
+.col-sx-list a{
+  text-decoration: none;
+  color: #106b21;
+  font-weight: bold;
+}
+
+
 
 .col-centr{
   float: left;
-  width: calc(50% - 20px);
-  height: 100%;
+  width: 50%;
   margin: 0 10px;
-  background-color: #730671;
 }
 
 .col-dx{
   float: left;
-  width: 25%;
-  height: 100%;
+  width: calc(25% - 10px);
 }
 
 .widget{
   height: calc(50% - 10px);
   margin-bottom: 10px;
-  background-color: #CC87DA;
 }
 
 /* .widget-bottom{
